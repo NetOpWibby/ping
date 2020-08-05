@@ -21,7 +21,7 @@
     "typescript": "^3.9.7",
     "updates": "^10.3.3"
   },
-  "homepage": "https://github.com/NetOperatorWibby/console",
+  "homepage": "https://github.com/NetOperatorWibby/ping",
   "husky": {
     "hooks": {
       "pre-commit": "npm run build && npm run pretty && npm run increment && git add -A :/"
@@ -49,5 +49,5 @@
     "test:coverage": "nyc npm run test:assert"
   },
   "types": "dist/index.d.ts",
-  "version": "2020.08.04"
+  "version": "2020.08.05"
 }
