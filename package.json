@@ -4,7 +4,7 @@
     "url": "https://webb.page"
   },
   "dependencies": {
-    "got": "^11.5.1"
+    "got": "^11.7.0"
   },
   "description": "Determine if a url exists",
   "devDependencies": {
@@ -13,13 +13,13 @@
     "@webb/test": "^2020.8.4",
     "chronver": "^2020.6.18",
     "del-cli": "^3.0.1",
-    "husky": "^4.2.5",
+    "husky": "^4.3.0",
     "npm-run-all": "^4.1.5",
     "nyc": "^15.1.0",
-    "prettier": "^2.0.5",
-    "ts-node": "^8.10.2",
-    "typescript": "^3.9.7",
-    "updates": "^10.3.3"
+    "prettier": "^2.1.2",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3",
+    "updates": "^11.1.5"
   },
   "homepage": "https://github.com/NetOperatorWibby/ping",
   "husky": {
@@ -49,5 +49,5 @@
     "test:coverage": "nyc npm run test:assert"
   },
   "types": "dist/index.d.ts",
-  "version": "2020.08.05"
+  "version": "2020.10.01"
 }
